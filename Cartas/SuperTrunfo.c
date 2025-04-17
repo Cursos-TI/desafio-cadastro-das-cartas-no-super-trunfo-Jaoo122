@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main() {
+
 char estado; 
-int população;
+int populaçao;
 float area;
 float pib;
 int pontos; //pontos turisticos 
@@ -23,7 +24,7 @@ char codigo[20]; // A letra do estado seguida de um número de 01 a 04 (ex: A01,
    scanf("%s", cidade);
 
    printf("Digite a população da cidade\n");
-   scanf("%i", &população);
+   scanf("%i", &populaçao);
   
    printf("Digite a area da cidade em km quadrado \n");
    scanf("%f", &area);
@@ -41,7 +42,7 @@ char codigo[20]; // A letra do estado seguida de um número de 01 a 04 (ex: A01,
     printf("Estado: %c \n", estado);  
     printf("Código: %s \n", codigo);
     printf("Cidade: %s \n", cidade); 
-    printf("População: %i \n", população);
+    printf("População: %i \n", populaçao);
     printf("Área: %.2f km² \n", area);  
     printf("PIB: %.2f \n", pib);
     printf("Pontos turísticos: %i \n", pontos);
