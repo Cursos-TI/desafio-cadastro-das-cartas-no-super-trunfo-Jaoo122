@@ -89,10 +89,5 @@ float pibper = (float) pib / populaçao;
    printf("O PIB PER CAPITA É: %.2f Reais \n", pibper);
 
 
-
-
-
-
-
     return 0;
 }
